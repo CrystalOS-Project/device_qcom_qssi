@@ -32,6 +32,7 @@ QCOM_BOARD_PLATFORMS += kona
 QCOM_BOARD_PLATFORMS += atoll
 QCOM_BOARD_PLATFORMS += lito
 QCOM_BOARD_PLATFORMS += bengal
+QCOM_BOARD_PLATFORMS += qssi
 
 QSD8K_BOARD_PLATFORMS := qsd8k
 
@@ -699,7 +700,8 @@ PRODUCT_PACKAGES := \
     SnapdragonGallery \
     VideoEditor \
     SnapdragonLauncher \
-    QesdkSysService
+    QesdkSysService \
+    libqesdk_ndk_platform.qti
 
 ifeq ($(TARGET_HAS_LOW_RAM),true)
     DELAUN := Launcher3Go
