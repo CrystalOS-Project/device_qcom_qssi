@@ -80,6 +80,8 @@ endif
 #### Dynamic Partition Handling
 
 PRODUCT_SOONG_NAMESPACES += \
+    frameworks/base/boot \
+    cts/tests/signature/api-check \
     hardware/google/av \
     hardware/google/interfaces
 
